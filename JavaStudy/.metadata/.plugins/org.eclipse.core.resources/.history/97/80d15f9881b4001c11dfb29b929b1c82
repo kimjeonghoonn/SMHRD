@@ -1,0 +1,24 @@
+package hhd;
+
+public class Korean {
+	public String getTitleMSG() {
+		return "===자판기 프로그램===";
+	}
+	public String getInputMoneyMSG() {
+		return "돈을 넣으세요 >> ";
+	}
+	public String getShowMenu1() {
+		return "메뉴를 선택하세요";
+	}
+	public String getShowMenu2() {
+		return "1.물(700) 2.콜라(1000) 3.커피(500) >>";
+	}
+	public String getReturnCharge1() {
+		return "돈이 부족합니다.";
+	}
+	public String getReturnCharge2(int money) {
+		return "현재는" + money + "원이 남았습니다.";
+	}
+	
+	
+}

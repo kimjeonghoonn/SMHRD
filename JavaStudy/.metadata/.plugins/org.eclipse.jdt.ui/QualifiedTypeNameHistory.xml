@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javazoom.jl.player.MP3Player"/>
+    <fullyQualifiedTypeName name="Controller.MP3Controller"/>
+    <fullyQualifiedTypeName name="Model.MusicVO"/>
+    <fullyQualifiedTypeName name="Tell"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="상속예제1.Mouse"/>
+    <fullyQualifiedTypeName name="추상클래스.PartTimeEmployee"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Model.VO"/>
+    <fullyQualifiedTypeName name="Controller.DTO"/>
+    <fullyQualifiedTypeName name="Model.pocketmon_default"/>
+    <fullyQualifiedTypeName name="View.StartMain"/>
+    <fullyQualifiedTypeName name="Controller.Member_info"/>
+    <fullyQualifiedTypeName name="Controller.Playgame"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="Ex04_MobilePhone"/>
+    <fullyQualifiedTypeName name="Ex04_CameraPhone"/>
+    <fullyQualifiedTypeName name="Ex06_Go"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="hhd.VendingMachine"/>
+    <fullyQualifiedTypeName name="hhd.Language"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="hhd.MenuDTO"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

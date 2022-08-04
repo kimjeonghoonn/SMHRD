@@ -1,0 +1,9 @@
+package hhd;
+
+public class VendingMachine {
+
+	public void showTitle() {
+		System.out.println("===자판기 프로그램===");
+	}
+	
+}

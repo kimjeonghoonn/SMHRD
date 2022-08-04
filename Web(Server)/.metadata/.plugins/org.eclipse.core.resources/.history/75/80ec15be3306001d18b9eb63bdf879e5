@@ -1,0 +1,53 @@
+package com.example.demo.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.dao.UserMapper;
+import com.example.demo.dto.UserDTO;
+
+@Service
+public class UserServiceImpl implements UserService {
+	@Autowired
+	private UserMapper uMapper;
+	
+	@Override
+	public boolean login (String mem_id,String mem_password) {
+		UserDTO user=uMapper.selectOneUser(mem_id); //id를통해 userDto가져와서 null이아니면 db에 존재하는 아이디 이겠죠?
+		if(user!=null) {
+			if(user.getMem_password().equals(mem_password)) 
+				return true;
+		}
+		return false;
+	}
+	
+	@Override
+	public boolean join (UserDTO user)/*회원가입*/ {
+		if(uMapper.selectOneUser(user.getUserId())==null)//아이디중복여부체크
+		{
+			uMapper.insertUser(user);
+			return true;
+		}
+		else
+			return false;
+	}
+	
+	@Override
+	public void modify(UserDTO user) {
+		uMapper.updateUser(user);
+	}
+	@Override
+	public void withdraw(String userId)/*탈퇴*/ {
+		uMapper.deleteUser(userId);
+	}
+	@Override
+	public UserDTO getUser(String userId) {
+		return uMapper.selectOneUser(userId);
+	}
+	@Override
+	public List<UserDTO> getUserList(){
+		return uMapper.selectAllUser();
+	}
+}

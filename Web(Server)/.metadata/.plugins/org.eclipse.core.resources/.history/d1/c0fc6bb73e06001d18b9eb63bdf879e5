@@ -1,0 +1,50 @@
+package com.example.demo;
+ 
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.demo.dto.BoardDTO;
+import com.example.demo.dto.UserDTO;
+import com.example.demo.service.BoardService;
+import com.example.demo.service.UserService;
+ 
+@ExtendWith(SpringExtension.class)
+@SpringBootTest
+public class TestApplicationTests {
+
+	@Autowired
+    private UserService uService;
+    @Autowired
+	private BoardService bService;
+    
+    @Test
+    public void userTest() 
+    {
+        UserDTO user = new UserDTO();
+        user.setMem_id("test2");
+        user.setMem_password("test2");
+        user.setMem_name("테스트2");
+        user.setMem_age(17);
+        user.setGuard_phone("test2@test2.test");
+        uService.join(user);
+        System.out.println(uService.getUser("test2"));
+        System.out.println("로그인 결과:"+uService.login("test2", "test2"));
+        
+    }
+    @Test
+    public void boardTest() {
+        BoardDTO board = new BoardDTO();
+        board.setB_number(1972);
+        board.setB_title("9596");
+        board.setB_content("학식먹을까 배달먹을까");
+        board.setB_writer("고민");
+        bService.write(board);
+        
+        for(BoardDTO b : bService.getBoardList())
+        	System.out.println(b);
+    }
+    
+}

@@ -1,0 +1,23 @@
+167.94.138.61 - - [26/May/2022:02:27:45 +0900] "-" 400 2163
+167.94.138.61 - - [26/May/2022:02:27:47 +0900] "GET / HTTP/1.1" 404 807
+167.94.138.61 - - [26/May/2022:02:27:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/main.jsp HTTP/1.1" 200 12031
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/js/scripts.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/nanum.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/hobby.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/gesi.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/image/%EC%A7%91%EA%B2%8C%EC%82%AC%EC%9E%A5.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/testimonials-2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/testimonials-3.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/bg-showcase-2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/bg-showcase-1.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:42:39 +0900] "GET /MessageSystem/assets/main_img/bg-showcase-3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [26/May/2022:15:48:33 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/main.jsp HTTP/1.1" 200 12086
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/assets/main_img/free-icon-fruits-3524528.png HTTP/1.1" 200 16880
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/assets/main_img/party.png HTTP/1.1" 200 20375
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/assets/main_img/resume.png HTTP/1.1" 200 22210
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/image/world.png HTTP/1.1" 200 1154418
+0:0:0:0:0:0:0:1 - - [26/May/2022:15:48:34 +0900] "GET /MessageSystem/image/original.png HTTP/1.1" 200 1466567
+91.240.118.237 - - [26/May/2022:16:18:24 +0900] "-" 400 2163

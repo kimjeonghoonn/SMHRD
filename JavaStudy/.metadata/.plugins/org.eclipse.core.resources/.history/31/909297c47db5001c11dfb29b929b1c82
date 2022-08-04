@@ -1,0 +1,35 @@
+package hhd;
+
+public class Language {
+
+	public String getTitleMSG() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getInputMoneyMSG() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getShowMenu1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getShowMenu2() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getReturnCharge1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getReturnCharge2(int money) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

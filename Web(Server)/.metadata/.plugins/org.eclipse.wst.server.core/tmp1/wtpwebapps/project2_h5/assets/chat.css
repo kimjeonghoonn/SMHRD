@@ -1,0 +1,131 @@
+
+@font-face {
+    font-family: 'jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'paybooc';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'OTW';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeBA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* 얇은 ibm */
+@font-face {
+    font-family: 'IBMs';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 굵은 ibm */
+@font-face {
+  font-family: 'IBM';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+    height:865px;
+}
+
+body {
+	
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-left : 3px solid black;
+    border-right : 3px solid black;
+    max-width: 523px;    
+    margin: 0 auto;
+   
+    
+    
+}
+
+
+.safe {
+    font-family:ibm;
+    position: absolute;
+    left: 88%;  
+    text-align: right;     
+    text-align: center; 
+  background-color: #ffc107; 
+  border: none;
+  color: black;
+  text-align: center;
+    padding : 1px 3px 1px 3px;
+    
+  font-size: 16px;
+
+  cursor: pointer;
+
+
+   
+}
+
+  
+
+
+
+ 
+.chat_wrap .header {
+    position: fixed; 
+    width: 523px;
+    font-size: 14px; padding: 15px 0;; 
+    color: white; text-align: center;  
+}
+ 
+.chat_wrap .chat { padding-bottom: 80px; 
+}
+.chat_wrap .chat ul { width: 100%; list-style: none; }
+.chat_wrap .chat ul li { width: 100%; }
+.chat_wrap .chat ul li.left { text-align: left; }
+.chat_wrap .chat ul li.right { text-align: right; }
+ 
+.chat_wrap .chat ul li > div { font-size: 13px;  }
+.chat_wrap .chat ul li > div.sender { margin: 10px 20px 10px 20px; font-weight: bold; }
+.chat_wrap .chat ul li > div.message { display: inline-block; word-break:break-all; 
+margin: 5px 20px; max-width: 75%; border: 1px solid #888; 
+padding: 10px; border-radius: 5px; background-color: #FCFCFC; color: #555; text-align: left; }
+ 
+.chat_wrap .input-div { position: fixed; bottom: 0; max-width: 699px;  width: 699px;  
+     background-color: #FFF; text-align: center; border-top: 1px solid #F18C7E; }
+.chat_wrap .input-div > textarea { margin:auto; max-width:513px;  width: 513px;  height: 80px; 
+border: none; padding: 10px 5px 10px 5px;  resize: none; }
+ 
+
+    
+
+
+
+/* 수신자 측 css */
+.msg { display: inline-block; word-break:break-all; 
+    margin: 5px 20px; max-width: 75%; border: 1px solid #888; font-size: 13px; white-space:nowrap;
+    padding: 10px; border-radius: 5px; background-color: #FCFCFC; color: #555; text-align: left; }
+
+
+.anotherName{
+
+margin :10px 20px 10px 20px;
+font-weight: bold;
+
+}
+
+.booy{
+padding : 0px
+}
+
+.format { display: none; }
+

@@ -1,0 +1,59 @@
+<%@page import="com.smhrd.domain.Board"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>SpringMVC01</h2>
+		<div class="panel panel-default">
+			<div class="panel-heading">Panel Heading</div>
+			<div class="panel-body">
+			<%-- list를 가져와서 출력 --%>
+	<%
+		// request 영역에 저장된 list 꺼내오기
+		List<Board> list = (List<Board>)request.getAttribute("list");
+		//out.print(list.size());
+	%>
+	<table border="1">
+		<tr> 
+			<td>글번호</td>
+			<td>제목</td>
+			<td>작성자</td>
+			<td>날짜</td>
+			<td>조회수</td>
+		</tr>
+		<%for( Board board : list){ %>
+		<tr> 
+			<td><%= board.getIdx() %></td>
+			<td><%= board.getTitle() %></td>
+			<td><%= board.getWritter() %></td>
+			<td><%= board.getIndate() %></td>
+			<td><%= board.getCount() %></td>
+		</tr>
+		
+		<%} %>
+		
+	</table>	
+			
+			
+			</div>
+			<div class="panel-footer">빅데이터 11차 김정훈</div>
+		</div>
+	</div>
+
+</body>
+</html>

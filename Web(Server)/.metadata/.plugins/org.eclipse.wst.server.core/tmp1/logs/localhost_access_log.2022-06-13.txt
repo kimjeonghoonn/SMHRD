@@ -1,0 +1,12 @@
+127.0.0.1 - - [13/Jun/2022:13:58:32 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:13:58:33 +0900] "GET /MessageSystem/join.jsp HTTP/1.1" 200 4976
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:13:58:33 +0900] "GET /MessageSystem/jquery-3.6.0.js HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:13:58:33 +0900] "GET /MessageSystem/assets/join.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:13:58:33 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:05 +0900] "GET /MessageSystem/JoinCon HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:05 +0900] "GET /MessageSystem/joinfail.jsp HTTP/1.1" 200 2631
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:05 +0900] "GET /MessageSystem/jquery-3.6.0.js HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:24 +0900] "GET /MessageSystem/join.jsp HTTP/1.1" 200 4976
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:24 +0900] "GET /MessageSystem/jquery-3.6.0.js HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:01:25 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [13/Jun/2022:14:02:57 +0900] "GET /MessageSystem/AddCommentCon HTTP/1.1" 500 1237

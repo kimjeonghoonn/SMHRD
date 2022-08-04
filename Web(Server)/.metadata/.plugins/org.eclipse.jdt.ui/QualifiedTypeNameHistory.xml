@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.MemberDTO"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="model.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.JDBC"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.DAO"/>
+    <fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.security.Timestamp"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.Message"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.MessageDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.Member"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.smhrd.database.SqlSessionManager"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.BoardDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.Safety"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.SafetyDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.User"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.smhrd.domain.UserDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="com.example.demo.service.BoardService"/>
+    <fullyQualifiedTypeName name="com.example.demo.service.UserService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+</qualifiedTypeNameHistroy>
